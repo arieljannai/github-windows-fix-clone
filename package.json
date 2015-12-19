@@ -1,0 +1,24 @@
+{
+  "name": "github-windows-fix-clone",
+  "version": "0.0.1",
+  "description": "Fix the clone in desktop button in GitHub.com by changing the local uri protocol",
+  "main": "fix.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "github",
+    "github-windows",
+    "clone",
+    "git"
+  ],
+  "author": "Ariel Jannai",
+  "license": "ISC",
+  "dependencies": {
+    "filereader": "^0.10.3",
+    "regedit": "^2.2.5",
+    "sql.js": "^0.2.21",
+    "sqlite3": "^3.1.1",
+    "winreg": "0.0.14"
+  }
+}
